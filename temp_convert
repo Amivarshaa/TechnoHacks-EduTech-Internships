@@ -1,0 +1,13 @@
+def convert_celsius_to_fahrenheit(celsius):
+  fahrenheit = (celsius * 9 / 5) + 32
+  return fahrenheit
+
+
+def main():
+  celsius = float(input("Enter the temperature in Celsius: "))
+  fahrenheit = convert_celsius_to_fahrenheit(celsius)
+  print(f"{celsius} degrees Celsius is equal to {fahrenheit} degrees Fahrenheit.")
+
+
+if __name__ == "__main__":
+  main()
